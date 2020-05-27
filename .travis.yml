@@ -1,9 +1,9 @@
 sudo: required
 services:
-- docker
-script: 'true'
+  - docker
+script: "true"
 deploy:
   provider: heroku
   api_key:
     secure: qcC6zmdxZAm8uK71+v2OH5brXl+pz0V9FRf6gTDQoFTdvX+9uBESwcIgP7iWxM7fNd/ePcSfS9AW+2gXmRnc+hmpx6wmimrijal2ZzolAU64wDW7O2bYRNbVIjSxpEGL4oMzcOQJyr9h/vg8Y/TGXM2+Nnt/nfav/i/za7NfpXUkcrSWUeObddW8Tgv0gm/75hxn53WEvKFg4xKN3nnXUIrsoJFiU+o2YFq1GV/Cm+tI6EgeWVQvrxAobNS1DKbn91gvyBS3mgUtpA2iWUi7gFzp0CXmEMHLxHLrFaAxFYLEp3YfLCBXpzfkBadLU6u6VlERBiat332ntHvCG5f2wCQULjoliTOaEiFYCbNg/6oa9NY0YOvG68/Ak45cl8WkOfTq2Y4T8YPL6K4DesA1BDdUQ5CGA/mUKZiVCCROCwq46Ag/18OpPikq4ShWR/RXMuBtAywNxJDmk/FHhVfQdg/Ij+FaQdShjdtxzBVX4x3qRWeyXajSEVWvgbooK6W5DYMvaoGv9/j5MnW/73DnRLY0E2EGNC+q2gdY5M1stdNB2HbSXv8VIgJELCJYaSvAPlp2PZfq9p6KURkup9uDHCn+sy+V3RW4LDX1flqitGX+rGO4OI/BynBAaV+s+WRtuDAoibMY/Yh9z8tWmZU4i5f3f5+PpGST9YtN55gm/bY=
-  app: simpleappdocker
+  app: simplewebappdocker
