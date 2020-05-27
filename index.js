@@ -10,7 +10,7 @@ app.get("/api/welcome", (req, res) => {
 });
 
 app.get("/api/greet/:name", (req, res) => {
-  res.send(`Welcome to Docker ${req.name}`);
+  res.send(`Welcome to Docker ${req.params.name}`);
 });
 
 const PORT = process.env.PORT || 8080;
